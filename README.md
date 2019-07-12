@@ -16,6 +16,6 @@ Esse projeto é responsável por fazer o controle PID de temperatura de um forno
 3. Carregar o arquivo `controle_PID`, modificando as variáveis `ssid` e `password`para rede WiFi que será utilizada;
 4. Abrir o *Serial Monitor* para verificar qual IP e porta foram utilizados para o *Web Server*;
 5. Abrir o navegador e entrar no IP especificado;
-6. Apertar o botão Iniciar na interface;
+6. Apertar o botão *Iniciar* na interface.
 
-Para usos subsequentes, iniciar a partir da instrução 5 (sem conectar via USB), visto que o IP será fixo para a rede selecionada.
+Para usos subsequentes, começar a partir da instrução 5 (sem conectar via USB), visto que o IP será fixo para a rede selecionada e a conexo é estabelecida automaticamente.
