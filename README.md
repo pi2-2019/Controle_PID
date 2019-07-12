@@ -18,4 +18,4 @@ Esse projeto é responsável por fazer o controle PID de temperatura de um forno
 5. Abrir o navegador e entrar no IP especificado;
 6. Apertar o botão *Iniciar* na interface.
 
-Para usos subsequentes, começar a partir da instrução 5 (sem conectar via USB), visto que o IP será fixo para a rede selecionada e a conexo é estabelecida automaticamente.
+Para usos subsequentes, começar a partir da instrução 5 (sem conectar via USB), visto que o IP será fixo para a rede selecionada e a conexão é estabelecida automaticamente.
