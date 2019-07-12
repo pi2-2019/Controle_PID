@@ -1,11 +1,19 @@
 # PI2 - Estação de Solda - Forno - Eletrônica
 
-Esse projeto é responsável por fazer o controle PID de temperatura de um forno para reflow de solda SAC305.
+Esse projeto é responsável por fazer o controle PID de temperatura de um forno para reflow da solda SAC305. O trabalho foi desenvolvido para a matéria Projeto Integrador 2, na Universidade de Brasília.
 
-esp8266 na versão 2.0
+## Versões de placas e *libraries*
 
-Ticker e esp8266wifi na versão nativa para esp 2.0
+1. esp8266 - 2.0;
+2. Ticker - versão nativa para esp8266 2.0;
+3. esp8266wifi - versão nativa para esp8266 2.0.
 
-Verificar rede wifi, timers desejados.
+## Instruções de uso
+1. Copiar sensor_PI2 para pasta de bibliotecas `arduino/libraries`;
+2. Instalar placa esp8266 na Arduino IDE segundo o tutorial: https://www.filipeflop.com/blog/programar-nodemcu-com-ide-arduino/;
+3. Carregar o arquivo `controle_PID`, modificando as variáveis para rede wifi;
+4. Abrir o *Serial Monitor* para verificar qual IP e porta foram utilizados para o *Web Server*;
+5. Abrir o navegador e entrar no IP especificado;
+6. Apertar o botão Iniciar na interface;
 
-#### Copiar sensor_PI2 para pasta de bibliotecas "arduino/libraries"
+Para usos subsequentes, iniciar a partir da instrução 5 (sem conectar via USB), visto que o IP será fixo para a rede selecionada.
